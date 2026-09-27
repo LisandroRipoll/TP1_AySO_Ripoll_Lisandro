@@ -1,0 +1,80 @@
+cd /home/osboxes/repogit
+
+cd /home/osboxes/repogit/TP1_AySO_Ripoll_Lisandro
+cat /etc/os-release
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+grep -i Home_url /etc/os-release
+grep -i Home_url /etc/os-release > datos_url.txt
+whoami
+echo "Usuario=$(whoami)" > datos_usuario.txt
+git add .
+git config --global user.mail "lisandro01club@gmail.com"
+git config --global user.name "Lisandro"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuario.txt"
+git status
+git push
+Grep´
+GRep
+Grep
+grep
+tail -n1
+head -n1
+tail -n1 "model name"
+head -n1 "model name"
+|
+grep "model name" /proc/cpuinfor | head -n1 >> datos_usuario.txt
+cd /home
+ls
+cd /home/osboxes
+ls
+grep "model name" /proc/cpuinfor | head -n1 >> datos_usuario.txt
+cd /proc
+grep "model name" /proc/cpuinfor | head -n1 >> datos_usuario.txt
+ls
+cd /proc/cpuinfo
+/home/osboxes/repogit
+cd home
+cd /home
+cd /home/osboxes
+cd /home/osboxes/repogit/TP1_AySO_Ripoll_Lisandro
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+ls
+cd /home/osboxes/repogit/TP1_AySO_Ripoll_Lisandro/datos_usuario.txt
+git add datos_usuario.txt
+git commit -m "feat: añadiendo informacion de CPU"
+git log --oneline
+ls
+cat <<EOF>> README.md
+Alumno: Lisandro Ripoll
+Division: 113
+Turno: Mañana
+EOF
+
+git add README.md datos_usuarios.txt
+ls
+git add README.md datos_usuario.txt
+git commit -m "ADD: añadiendo Readme y datos de usuario"
+git push
+cd /home/osboxes
+mkdir -p material/{uni1,uni2,uni3} materia2/{uni1,uni2,uni3}
+tree
+find material materi2 -type d | sort
+sudo apt update
+sudo apt install tree
+tree
+history -a
+ls
+ls -l
+ls -a
+cp ~/.bash_history ./Historia_comandos_Ripoll.txt
+git add .
+git commit -m "ADD: Historial de comandos de Apellido"
+cd repogit/TP1_AyS0_Ripoll_Lisandro
+ls
+cd repogit
+cd repogit/TP1_AyS0_Ripoll_Lisandro
+ls
+cd repogit/TP1_AySO_Ripoll_Lisandro
+cd /home/osboxes/repogit/TP1_AySO_Ripoll_Lisandro
+history -a
