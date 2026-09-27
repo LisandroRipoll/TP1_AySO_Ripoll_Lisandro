@@ -60,9 +60,6 @@ cd /home/osboxes
 mkdir -p material/{uni1,uni2,uni3} materia2/{uni1,uni2,uni3}
 tree
 find material materi2 -type d | sort
-sudo apt update
-sudo apt install tree
-tree
 history -a
 ls
 ls -l
